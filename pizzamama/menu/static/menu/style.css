@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/menu_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: arial;
+}
+
+.logo_mama{
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+h1{
+    background-color: #DD7835;
+    display: inline;
+    padding :8px 22px;
+}
+
+.menu_title{
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.menu_list{
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.menu_list_item{
+    margin:30px 0;
+}
+
+.menu_list_title{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    width: 350px;
+}
+
+.menu_list_price{
+    display: inline-block;
+    width: 70px;
+    font-size: 20px;
+    color: #DD7835;
+    margin-left: 8px;
+    text-align: right;
+}
+
+.menu_list_ingredients{
+    display: block;
+    width: 320px;
+    font-size: 14px;
+    color: #C8C8C8;
+    margin-top: 4px;
+}
+
+.menu_list_vegan{
+    display: inline-block;
+    background-color: #DD7835;
+    padding:2px 2px;
+    margin-top: 5px;
+    color: black;
+    border-radius: 4px;
+}
